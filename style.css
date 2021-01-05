@@ -31,10 +31,6 @@ p{
     width: 100%;
 }
 
-.top-banner{
-    background-image: url(images/top-banner.png);
-    background-repeat: no-repeat;
-}
 section{
     height: 500px;
 }
@@ -44,7 +40,7 @@ section{
 
 .link-button{
     text-decoration: none;
-    background-image: linear-gradient(45deg,lightsalmon, tomato); 
+    background-image: linear-gradient(45deg,#FF3E8A , #ffa07a); 
     padding: 10px 40px;
     border-radius: 5px;
     color: white;
@@ -58,30 +54,57 @@ section{
 }
 
 .box{
-    box-shadow: 10px 10px 40px gray;
-    border-radius: 5px;
+    box-shadow: 10px 10px 40px;
+    border-radius: 20px;
     height: 70%;
 }
-.experience-area{
-    background-image: url(images/exp-bg.png);
-    background-repeat: no-repeat;
-    background-position: left;
 
-}
-
-#full-stack{
-    border-left: 7px solid;
-     border-image: linear-gradient(180deg,lightsalmon, tomato) ;
-     border-image-slice: 1;
-}
-
-#half-stack{
-   
-        border-left: 7px solid;
-         border-image: linear-gradient(180deg,blue,cyan) ;
-         border-image-slice: 1;
-}
 footer p{
     text-align: center;
     font-size: 12px;
+}
+#latest{
+    color: orange;
+}
+.h2-align{
+    text-align: center;
+}
+.alex-width{
+    width: 25%;
+    float: left;
+    margin-left: 3%;
+    padding-left: 2%;
+}
+.size{
+    margin: 15px;
+}
+#experience-area{
+   padding-top: 20px;
+    height: 600px;
+    background-color:whitesmoke;
+}
+ul{
+margin-left: 700px;
+}
+ul li{
+list-style: none;
+display: inline-block;
+}
+ul li a{
+text-decoration: none;
+padding: 0 20px;
+}
+nav{
+    width: 100%;
+}
+ul li a :hover{
+    color: tomato;
+}
+#rose{
+    width: 600px;
+    padding:150px 0 0 350px;
+    
+}
+#germany{
+    height: 400px;
 }
