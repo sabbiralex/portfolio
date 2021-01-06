@@ -46,6 +46,15 @@ section{
     color: white;
     font-weight: 700;
 }
+.link-button-1{
+    text-decoration: none;
+    background-image: linear-gradient(45deg,#FF3E8A , #ffa07a); 
+    padding: 15px 15px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+}
+
 
 .dream-area{
     background-image: url(images/dream-bg.png);
@@ -100,11 +109,38 @@ nav{
 ul li a :hover{
     color: tomato;
 }
-#rose{
-    width: 600px;
-    padding:150px 0 0 350px;
-    
-}
+
 #germany{
-    height: 400px;
+    background-image: url(images/footer.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 70% 50%;
+
 }
+#ff{
+  padding: 210px 300px;
+  font-size: 50px;
+  color: white;
+  
+}   
+#fg{
+    font-size: 20px;
+    margin-left: 130px;
+}
+.center{
+    color: dimgray;
+    text-align: center;
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
